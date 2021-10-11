@@ -98,7 +98,7 @@
                     msg: userText,
                 },
                 type: "POST",
-                url: "http://172.18.14.60:5000/get", /* Give the ip of the backend machine where its running along with the port number */
+                url: "http://#:5000/get", /* Give the ip of the backend machine where its running along with the port number */
             }).done(function(data) {
                 console.log(data);
                 var botHtml = '<p class="botText"><span>' + data + "</span></p>";
